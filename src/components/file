@@ -1,0 +1,32 @@
+
+      <div className="">
+        <div style={{ float: "left", display: "flex" }}>
+          <div style={{ display: "flex" }}>
+            <div>Date Here *</div>
+            <img src="newicons/01d.svg" alt="" />
+          </div>
+        </div>
+        <div style={{ float: "right" }}>temperature</div>
+      </div>
+      <br />
+      <br />
+      <div className="">
+        <div style={{ float: "left", display: "flex" }}>
+          <div style={{ display: "flex" }}>
+            <div>Date Here *</div>
+            <div>Cloudy</div>
+          </div>
+        </div>
+        <div style={{ float: "right" }}>temperature</div>
+      </div>
+      <br />
+      <br />
+      <div className="">
+        <div style={{ float: "left", display: "flex" }}>
+          <div style={{ display: "flex" }}>
+            <div>Date Here *</div>
+            <div>Cloudy</div>
+          </div>
+        </div>
+        <div style={{ float: "right" }}>temperature</div>
+      </div>

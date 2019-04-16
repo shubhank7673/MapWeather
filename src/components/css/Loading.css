@@ -1,0 +1,5 @@
+@keyframes arrow-spin {
+  50% {
+    transform: rotateY(360deg);
+  }
+}

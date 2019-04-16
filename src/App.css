@@ -1,0 +1,227 @@
+.text {
+  float: left;
+  align-content: left !important;
+}
+.weatherIcon {
+  float: right;
+}
+input {
+  outline: none;
+}
+button {
+  outline: none;
+}
+.cityInput {
+  border: 0px;
+  background-color: rgba(0, 0, 0, 0);
+  border-bottom: 2px solid black;
+  margin-right: 15px;
+  margin-bottom: 10px;
+  width: 60%;
+  margin-top: 15px;
+  font-size: 20px;
+}
+input:focus {
+  outline: none;
+}
+.header {
+  /* background-image: linear-gradient(
+    to right,
+    rgb(37, 231, 244),
+    rgb(25, 66, 253)
+  ); */
+  /* background-color: slateblue; */
+  width: 100%;
+  margin: 0px;
+  padding-top: 10px;
+  justify-content: center;
+  text-align: center;
+  padding-bottom: 15px;
+  /* margin-top: -1%; */
+}
+.butn {
+  cursor: pointer !important;
+  background-color: rgba(0, 0, 0, 0);
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 7px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.layer {
+  /* background-color: hsla(240, 68%, 61%, 0.582);
+  */
+  background-image: linear-gradient(
+    to right,
+    rgb(0, 255, 202, 0.2),
+    rgb(81, 0, 255, 0.2)
+  );
+  /* background-image: linear-gradient(
+    to right,
+    rgb(255, 255, 255),
+    rgb(98, 98, 98)
+  ); */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.butn:hover {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(0, 0, 0, 0.01);
+}
+.weatherTab {
+  width: 35%;
+  margin: auto;
+  overflow: auto;
+  border: 1px solid lightgrey;
+  border-radius: 10px;
+  padding-left: 10px;
+  background-color: rgba(248, 247, 216, 0.8);
+}
+@media only screen and (max-width: 990px) {
+  .weatherTab {
+    width: 60%;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .App {
+    margin: -3% !important;
+    margin-top: -30px !important;
+  }
+  .weatherTab {
+    width: 40%;
+    padding-bottom: 7.9% !important;
+  }
+  .forecastTmp {
+    margin-left: 20% !important;
+  }
+  .weatherIcon {
+    height: 150px !important;
+    width: 150px !important;
+    margin-top: -20px !important;
+  }
+  .text {
+    text-align: center;
+  }
+  .temperature {
+    margin-left: -30px !important;
+  }
+  .text > .temperature {
+    font-size: 20px !important;
+    margin-left: 0px;
+  }
+  .inner > img {
+    height: 20px !important;
+    width: 20px !important;
+  }
+  .inner > p {
+    font-size: 13px !important;
+  }
+  .text {
+    margin-top: -20px !important;
+  }
+  .weatherIcon {
+    margin-top: -35px !important;
+  }
+}
+@media only screen and (max-width: 1025px) {
+  .weatherTab {
+    width: 40%;
+  }
+}
+@media only screen and (max-width: 1220px) {
+  .fc {
+    width: 45%;
+  }
+}
+@media only screen and (max-width: 460px) {
+  .weatherTab {
+    margin-top: 50px !important;
+    width: 90%;
+    margin-right: 0px !important;
+  }
+  .App form {
+    margin-top: 50px !important;
+  }
+  .forecastTmp {
+    margin-left: 30% !important;
+  }
+}
+.App form {
+  margin-bottom: 40px;
+}
+.App {
+  justify-content: center;
+  text-align: center;
+  margin: 0 auto;
+  margin: -1%;
+  margin-top: -21px;
+  /* border: 1px solid black; */
+}
+.logo {
+  font-family: "Patua One", cursive;
+  transition: 1s;
+}
+.inner {
+  justify-content: left;
+  text-align: left;
+  display: flex;
+  /* padding-right: 10px; */
+}
+.inner > p {
+  flex-flow: row;
+  margin-top: 3px;
+  /* font-size: 16px; */
+}
+.inner > img {
+  height: 22px;
+  width: 22px;
+}
+.text > .temperature {
+  font-size: 30px;
+}
+.text {
+  margin-top: -30px !important;
+}
+.weatherIcon {
+  margin-top: -40px !important;
+}
+.logo:hover {
+  color: white;
+}
+.Forecast {
+  background-color: rgba(248, 247, 216, 0.8);
+  margin-left: 20px;
+  margin-top: -40px;
+  border-radius: 10px;
+}
+
+.weatherTab {
+  margin-right: 10px;
+}
+.fc {
+  padding-bottom: 9px !important;
+  padding-right: 6px;
+}
+.innerImage {
+  margin-top: -20px !important;
+}
+.inner2 {
+  justify-content: left;
+  text-align: left;
+  display: flex;
+  border-bottom: 1px solid silver;
+  /* padding-right: 10px; */
+}
+.inner2 > p {
+  flex-flow: row;
+  margin-top: 20px;
+  /* font-size: 16px; */
+}
+.inner2 > img {
+  height: 60px;
+  width: 60px;
+}
