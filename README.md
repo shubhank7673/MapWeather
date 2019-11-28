@@ -1,6 +1,6 @@
 # MapWeather
 
-**MapWeather** is a react based web application that can be used to check the weather conditions of any city in the world . MapWeather uses openweathermap api . Axios is used in the application to request the data from api. **MapWeather** is also capable of forecasting the weather of next 3 days.
+**MapWeather** is a react based web application that can be used to see the weather of any city in the world . MapWeather uses openweathermap api . Axios is used in the application to request the data from api. **MapWeather** is also capable of forecasting the weather of next 3 days.
 
 ## The application can :-
 
